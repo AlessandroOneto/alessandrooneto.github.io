@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alessandro Oneto | Curriculum</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">Alessandro Oneto</div>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="curriculum.html" class="active">Curriculum</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="mentoring.html">Mentoring</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="outreach.html">Outreach</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-wrapper container">
+        <main class="content">
+            <h1>Curriculum Vitae</h1>
+
+            <div class="cv-info">
+                <p>
+                    <a href="files/cv_2601.pdf" target="_blank" class="cv-link">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 5px; vertical-align: middle;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        Download full CV (PDF)
+                    </a>
+                    <span class="last-update">Last updated: January 2026</span>
+                </p>
+            </div>
+
+            <div class="cv-sections">
+                <div class="tabs">
+                    <button class="tab-link active" onclick="openTab(event, 'experience')">Professional Experience</button>
+                    <button class="tab-link" onclick="openTab(event, 'education')">Education</button>
+                </div>
+
+                <div id="experience" class="tab-content active">
+                    <div class="cv-item">
+                        <span class="date">2026.01 — Present</span>
+                        <div class="details">
+                            <h3>Associate Professor</h3>
+                            <p class="institution">Università di Genova, Italy</p>
+                        </div>
+                    </div>
+                    <div class="cv-item">
+                        <span class="date">2023.04 — 2025.12</span>
+                        <div class="details">
+                            <h3>Associate Professor</h3>
+                            <p class="institution">Università di Trento, Italy</p>
+                        </div>
+                    </div>
+                    <div class="cv-item">
+                        <span class="date">2020.04 — 2023.03</span>
+                        <div class="details">
+                            <h3>Assistant Professor (RTDb)</h3>
+                            <p class="institution">Università di Trento, Italy</p>
+                        </div>
+                    </div>
+                    <div class="cv-item">
+                        <span class="date">2019.04 — 2020.03</span>
+                        <div class="details">
+                            <h3>Humboldt Foundation Research Fellow</h3>
+                            <p class="institution">Otto-von-Guericke-Universität Magdeburg, Germany</p>
+                            <p class="mentor">Mentor: Thomas Kahle</p>
+                        </div>
+                    </div>
+                    <div class="cv-item">
+                        <span class="date">2018.01 — 2019.03</span>
+                        <div class="details">
+                            <h3>BGSMath Junior Postdoctoral Fellow</h3>
+                            <p class="institution">Universitat Politecnica de Catalunya Barcelona, Spain</p>
+                            <p class="mentor">Mentor: Marta Casanellas</p>
+                        </div>
+                    </div>
+                    <div class="cv-item">
+                        <span class="date">2016.11 — 2017.12</span>
+                        <div class="details">
+                            <h3>Postdoctoral Researcher</h3>
+                            <p class="institution">Inria Méditerranée at Université Côte d'Azur, Nice, France</p>
+                            <p class="mentor">Mentor: Bernard Mourrain</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="education" class="tab-content">
+                    <div class="cv-item">
+                        <span class="date">2016</span>
+                        <div class="details">
+                            <h3>PhD in Mathematics</h3>
+                            <p class="institution">Stockholm University, Sweden</p>
+                            <p class="mentor">Supervisor: Boris Shapiro, Enrico Carlini (external)</p>
+                        </div>
+                    </div>
+                    <div class="cv-item">
+                        <span class="date">2012</span>
+                        <div class="details">
+                            <h3>Master Degree in Mathematics</h3>
+                            <p class="institution">Università di Genova, Italy</p>
+                            <p class="mentor">Supervisors: Maria Virginia Catalisano, Enrico Carlini (external)</p>
+                        </div>
+                    </div>
+                    <div class="cv-item">
+                        <span class="date">2010</span>
+                        <div class="details">
+                            <h3>Bachelor Degree in Mathematics</h3>
+                            <p class="institution">Università di Genova, Italy</p>
+                            <p class="mentor">Supervisors: Anthony Vito Geramita, Maria Virginia Catalisano</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="awards-section">
+                <h2>Selected Awards & Grants (selected)</h2>
+                <ul class="awards-list">
+                    <li><strong>Principal Investigator of PRIN2022SC project <i>Applied Algebraic Geometry of Tensors</i></strong> (Prot. NBN7TL) <br>
+                        by Ministry of University and Research, Italy. <br>
+                        as part of the call relating to the sliding of the final rankings of the PRIN 2022 call. <br>
+                        Other unites: Emanuele Ventura (Poli. di Torino, co-PI), Maria Chiara Brambilla (U. Poli. delle Marche), Cristiano Bocci (U. di Siena).
+                        
+                    </li>
+                    <li><strong>24 months Humboldt Research Fellowship</strong> <br>
+                        by Alexander von Humboldt Foundation, Germany. <br>
+                        Host institution: Otto-von-Guericke-Universität Magdeburg. <br>Mentor: Thomas Kahle.
+                    </li>
+                </ul>
+            </section>
+
+            <section class="awards-section">
+                <h2>Qualifications</h2>
+                <ul class="awards-list">
+                    <li><strong>National Habilitation to Full Professor</strong> (01/A2: Algebra and Geometry) <br>
+                    by Ministry of University and Research (Italy) <br>
+                    Validity: 2024 - 2035.
+                </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].classList.remove("active");
+            }
+            tablinks = document.getElementsByClassName("tab-link");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active");
+            }
+            document.getElementById(tabName).classList.add("active");
+            evt.currentTarget.classList.add("active");
+        }
+    </script>
+
+
+<footer>
+    <div class="container footer-content">
+        <div class="funding-section">
+            <h3>Active Funding</h3>
+            <p>
+                <b>Applied Algebraic Geometry of Tensors</b> (Prot. NBN7TL) by Ministry of University and Research (Italy) 
+                as part of the call relating to the sliding of the final rankings of the PRIN 2022 call.
+            </p>
+            <div class="funding-logo">
+                <img src="images/logo_prin.png" alt="Logo Ministero dell'Università e della Ricerca" class="logo-placeholder">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Alessandro Oneto. Built with the support of Gemini</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

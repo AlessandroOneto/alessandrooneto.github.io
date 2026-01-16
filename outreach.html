@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alessandro Oneto | Outreach</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">Alessandro Oneto</div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="curriculum.html">Curriculum</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="mentoring.html">Mentoring</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="outreach.html" class="active">Outreach</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-wrapper container">
+        <main class="content">
+            <h1>Outreach and Public Engagement</h1>
+            <p>Dissemination activities, laboratories and workshops organized for schools and the general public.</p>
+
+            <div class="outreach-list" style="margin-top: 20px;">
+
+                <div class="cv-item" style="border-left: 5px solid #ccc; padding: 12px 20px; margin-bottom: 25px; background: #fff; display: block;">
+                    <h3 style="margin: 0; color: var(--primary-color); font-size: 1.2rem;">Acconciature, Trecce, Cravatte</h3>
+                    <p style="margin: 4px 0; font-size: 0.95rem; line-height: 1.4;">Laboratory activity for schools on the theory of Braid Groups.</p>
+                    <p style="margin: 2px 0; font-size: 0.9rem; color: #555;"><b>Organised with:</b> Agnese Del Zozzo, Matilde Calabri, Davide Borra, based on works by Ester Dalvit</p>
+                    <p style="margin: 2px 0; font-size: 0.85rem; color: var(--accent-green); font-weight: 600;">Festival della Scienza di Genova</p>
+                    <div style="margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap;">
+                        <button onclick="togglePhotos(this)" style="background: var(--primary-blue); border: 1px solid var(--primary-blue); padding: 4px 10px; cursor: pointer; font-family: inherit; font-size: 0.75rem; border-radius: 4px; color: white;">View Photos</button>
+                        <a href="http://www.bdim.eu/item?id=RIUMI_2013_1_6_3_509_0&fmt=pdf" style="text-decoration: none; background: var(--accent-green); padding: 4px 10px; font-size: 0.75rem; border-radius: 4px; color: white;">E. Dalvit, Nuove proposte di divulgazione della teoria delle trecce, 2013</a>
+                    </div>
+                    <div class="image-gallery" style="display: none; gap: 10px; margin-top: 15px; flex-wrap: wrap;">
+                        <img src="images/trecce1.jpeg" alt="Activity Photo" style="max-width: 100%; max-height: 250px; height: auto; border-radius: 4px;">
+                        <img src="images/trecce2.jpeg" alt="Activity Photo" style="max-width: 100%; max-height: 250px; height: auto; border-radius: 4px;">
+                    </div>
+                </div>
+
+                <div class="cv-item" style="border-left: 5px solid #ccc; padding: 12px 20px; margin-bottom: 25px; background: #fff; display: block;">
+                    <h3 style="margin: 0; color: var(--primary-color); font-size: 1.2rem;">Moltiplichiamo! Tra regoli, immagini e reti neurali</h3>
+                    <p style="margin: 4px 0; font-size: 0.95rem; line-height: 1.4;">Laboratory activity for schools about various types of multiplications, from operations with numbers to those between matrices, with the aim of discovering that matrix operations are the basis of many computer applications: from image recognition to recommendation algorithms.</p>
+                    <p style="margin: 2px 0; font-size: 0.9rem; color: #555;"><b>Organised with:</b> Alessandra Bernardi, Mima Stanojkovski, Elisa Postinghel, Enea Menabue</p>
+                    <p style="margin: 2px 0; font-size: 0.85rem; color: var(--accent-green); font-weight: 600;">BergamoScienza 2025</p>
+                    <div style="margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap;">
+                        <button onclick="togglePhotos(this)" style="background: var(--primary-blue); border: 1px solid var(--primary-blue); padding: 4px 10px; cursor: pointer; font-family: inherit; font-size: 0.75rem; border-radius: 4px; color: white;">View Photos</button>
+                    </div>
+                    <div class="image-gallery" style="display: none; gap: 10px; margin-top: 15px; flex-wrap: wrap;">
+                        <img src="images/moltiplichiamo1.jpeg" alt="Activity Photo" style="max-width: 100%; max-height: 250px; height: auto; border-radius: 4px;">
+                        <img src="images/moltiplichiamo2.jpeg" alt="Activity Photo" style="max-width: 100%; max-height: 250px; height: auto; border-radius: 4px;">
+                        <img src="images/moltiplichiamo3.jpeg" alt="Activity Photo" style="max-width: 100%; max-height: 250px; height: auto; border-radius: 4px;">
+                    </div>
+                </div>
+
+                <div class="cv-item" style="border-left: 5px solid #ccc; padding: 12px 20px; margin-bottom: 25px; background: #fff; display: block;">
+                    <h3 style="margin: 0; color: var(--primary-color); font-size: 1.2rem;">Per imparare bisogna sbagliare</h3>
+                    <p style="margin: 4px 0; font-size: 0.95rem; line-height: 1.4;">Laboratory activity for schools on Reinforcement Learning.</p>
+                    <p style="margin: 2px 0; font-size: 0.9rem; color: #555;"><b>Organised with:</b> Carlotta Vielmo, Luigi Amedeo Bianchi, Maia Santi</p>
+                    <p style="margin: 2px 0; font-size: 0.85rem; color: var(--accent-green); font-weight: 600;">Festival della Scienza di Genova 2024; BergamoScienza 2025</p>
+                    <div style="margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap;">
+                        <div style="margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap;">
+                        <a href="files/RLpptx.pdf" style="text-decoration: none; background: var(--accent-green); padding: 4px 10px; font-size: 0.75rem; border-radius: 4px; color: white;">Slides</a>
+                        <a href="files/RLposter.png" style="text-decoration: none; background: var(--accent-green); padding: 4px 10px; font-size: 0.75rem; border-radius: 4px; color: white;">Poster</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cv-item" style="border-left: 5px solid #ccc; padding: 12px 20px; margin-bottom: 25px; background: #fff; display: block;">
+                    <h3 style="margin: 0; color: var(--primary-color); font-size: 1.2rem;">Hex: una lezione di topologia su scacchiera</h3>
+                    <p style="margin: 4px 0; font-size: 0.95rem; line-height: 1.4;">A lecture for high school students. Inspired by the book "Giochi e Percorsi Matematici", by Emanuele Delucchi, Giovanni Gaiffi, Ludovico Pernazza "</p>
+                    <p style="margin: 2px 0; font-size: 0.85rem; color: var(--accent-green); font-weight: 600;">Department of Mathematics, U. Trento</p>
+                    <div style="margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap;">
+                        <div style="margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap;">
+                        <a href="files/Hex_slides.pdf" style="text-decoration: none; background: var(--accent-green); padding: 4px 10px; font-size: 0.75rem; border-radius: 4px; color: white;">Slides</a>
+                        <a href="https://link.springer.com/book/10.1007/978-88-470-2616-2" style="text-decoration: none; background: var(--accent-green); padding: 4px 10px; font-size: 0.75rem; border-radius: 4px; color: white;">E. Delucchi, G. Gaiffi, L. Pernazza, Giochi e Percorsi Matematici, 2012</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cv-item" style="border-left: 5px solid #ccc; padding: 12px 20px; margin-bottom: 25px; background: #fff; display: block;">
+                    <h3 style="margin: 0; color: var(--primary-color); font-size: 1.2rem;">Matematici per Gioco</h3>
+                    <p style="margin: 4px 0; font-size: 0.95rem; line-height: 1.4;">Laboratory activity for the general audience on the relation between games and mathematics.</p>
+                    <p style="margin: 2px 0; font-size: 0.9rem; color: #555;"><b>Organised with:</b> M. Tomasi, C. Vielmo, A. Del Zozzo</p>
+                    <p style="margin: 2px 0; font-size: 0.85rem; color: var(--accent-green); font-weight: 600;">Genova 2022; EDUCA Rovereto 2023; BergamoScienza 2023</p>
+                    <div style="margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap;">
+                        <button onclick="togglePhotos(this)" style="background: var(--primary-blue); border: 1px solid var(--primary-blue); padding: 4px 10px; cursor: pointer; font-family: inherit; font-size: 0.75rem; border-radius: 4px; color: white;">View Photos</button>
+                    </div>
+                    <div class="image-gallery" style="display: none; gap: 10px; margin-top: 15px; flex-wrap: wrap;">
+                        <img src="images/giochi1.jpg" alt="Activity Photo" style="max-width: 100%; max-height: 250px; height: auto; border-radius: 4px;">
+                        <img src="images/giochi2.jpg" alt="Activity Photo" style="max-width: 100%; max-height: 250px; height: auto; border-radius: 4px;">
+                        <img src="images/giochi3.jpg" alt="Activity Photo" style="max-width: 100%; max-height: 250px; height: auto; border-radius: 4px;">
+                        <img src="images/giochi4.jpg" alt="Activity Photo" style="max-width: 100%; max-height: 250px; height: auto; border-radius: 4px;">
+                    </div>
+                </div>
+
+                <div class="cv-item" style="border-left: 5px solid #ccc; padding: 12px 20px; margin-bottom: 25px; background: #fff; display: block;">
+                    <h3 style="margin: 0; color: var(--primary-color); font-size: 1.2rem;">A dissemination protocol between University, School and Society</h3>
+                    <p style="margin: 4px 0; font-size: 0.95rem; line-height: 1.4;">Collaborative path between researchers, undergraduate students and high school students to implement outreach activities at U. Trento.</p>
+                    <p style="margin: 2px 0; font-size: 0.9rem; color: #555;"><b>Organised with:</b> A. Del Zozzo, C. Vielmo, M. Andreatta in collaboration with FabLab UniTrento.</p>
+                    <p style="margin: 2px 0; font-size: 0.85rem; color: var(--accent-green); font-weight: 600;">Supported by INdAM</p>
+                </div>
+
+                <div class="cv-item" style="border-left: 5px solid #ccc; padding: 12px 20px; margin-bottom: 25px; background: #fff; display: block;">
+                    <h3 style="margin: 0; color: var(--primary-color); font-size: 1.2rem;">Recostruint l’evolució amb matemàtiques</h3>
+                    <p style="margin: 4px 0; font-size: 0.95rem; line-height: 1.4;">Interactive workshop for high school students on phylogenetic mathematical models.</p>
+                    <p style="margin: 2px 0; font-size: 0.9rem; color: #555;"><b>Organised with:</b> M. Garrote Lòpez, M. Casanellas</p>
+                    <p style="margin: 2px 0; font-size: 0.85rem; color: var(--accent-green); font-weight: 600;">Inst. d'Estudis Catalans, Barcelona</p>
+                    <div style="margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap;">
+                        <div style="margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap;">
+                        <a href="files/evolucio_slides.pdf" style="text-decoration: none; background: var(--accent-green); padding: 4px 10px; font-size: 0.75rem; border-radius: 4px; color: white;">Slides</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cv-item" style="border-left: 5px solid #ccc; padding: 12px 20px; margin-bottom: 25px; background: #fff; display: block;">
+                    <h3 style="margin: 0; color: var(--primary-color); font-size: 1.2rem;">Formae Mathematicae</h3>
+                    <p style="margin: 4px 0; font-size: 0.95rem; line-height: 1.4;">A full-day event with laboratories, expositions and seminars.</p>
+                    <p style="margin: 2px 0; font-size: 0.9rem; color: #555;"><b>Organised with:</b> M. Garrote Lòpez</p>
+                    <p style="margin: 2px 0; font-size: 0.85rem; color: var(--accent-green); font-weight: 600;">European Researchers' Night, Barcelona</p>
+                    <div style="margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap;">
+                        <button onclick="togglePhotos(this)" style="background: var(--primary-blue); border: 1px solid var(--primary-blue); padding: 4px 10px; cursor: pointer; font-family: inherit; font-size: 0.75rem; border-radius: 4px; color: white;">View Photos</button>
+                    </div>
+                    <div class="image-gallery" style="display: none; gap: 10px; margin-top: 15px; flex-wrap: wrap;">
+                        <img src="images/formae1.jpg" alt="Activity Photo" style="max-width: 100%; max-height: 250px; height: auto; border-radius: 4px;">
+                        <img src="images/formae2.jpg" alt="Activity Photo" style="max-width: 100%; max-height: 250px; height: auto; border-radius: 4px;">
+                        <img src="images/formae3.jpg" alt="Activity Photo" style="max-width: 100%; max-height: 250px; height: auto; border-radius: 4px;">
+                        <img src="images/formae4.png" alt="Activity Photo" style="max-width: 30%; max-height: 500px; height: auto; border-radius: 4px;">
+                        <img src="images/formae5.png" alt="Activity Photo" style="max-width: 30%; max-height: 500px; height: auto; border-radius: 4px;">
+                        <img src="images/formae6.png" alt="Activity Photo" style="max-width: 30%; max-height: 500px; height: auto; border-radius: 4px;">
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="funding-section">
+                <h3>Active Funding</h3>
+                <p>
+                    <b>Applied Algebraic Geometry of Tensors</b> (Prot. NBN7TL) by Ministry of University and Research (Italy) as part of the call relating to the sliding of the final rankings of the PRIN 2022 call.
+                </p>
+                <div class="funding-logo">
+                    <img src="images/logo_prin.png" alt="Logo Ministero dell'Università e della Ricerca" class="logo-placeholder">
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Alessandro Oneto. Built with the support of Gemini</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function togglePhotos(btn) {
+            const gallery = btn.parentElement.nextElementSibling;
+            if (gallery.style.display === "none" || gallery.style.display === "") {
+                gallery.style.display = "flex";
+                btn.textContent = "Hide Photos";
+            } else {
+                gallery.style.display = "none";
+                btn.textContent = "View Photos";
+            }
+        }
+    </script>
+</body>
+</html>

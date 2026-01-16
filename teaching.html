@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alessandro Oneto | Teaching</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">Alessandro Oneto</div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="curriculum.html">Curriculum</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="teaching.html" class="active">Teaching</a></li>
+                    <li><a href="mentoring.html">Mentoring</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="outreach.html">Outreach</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-wrapper container">
+        <main class="content">
+            <h1>Teaching and Didactics</h1>
+            <p>Information and materials for my current and past courses. For students of the University of Genoa, please refer to <b>AulaWeb</b> for official communications and updated schedules.</p>
+
+            <section class="teaching-section">
+                <h2>Current Courses at Università di Genova</h2>
+                
+                <div class="project-card">
+                    <header class="project-header">
+                        <div class="course-meta">
+                            <h3 style="margin-bottom: 5px;">Coding Theory</h3>
+                            <span style="color: var(--accent-green); font-weight: 500; font-size: 0.9rem;">Master Degree in Mathematics | since a.y. 2025/2026</span>
+                        </div>
+                    </header>
+                    <p>Held with Emanuela De Negri.</p>
+                    <p>
+                        Introductory course to Coding Theory. In particular, the course is dedicated to the study of the mathematical theory of corrector codes.</p>
+                    <div class="pub-buttons">
+                        <a href="#" class="btn btn-doi">AulaWeb</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <header class="project-header">
+                        <div class="course-meta">
+                            <h3 style="margin-bottom: 5px;">Geometry</h3>
+                            <span style="color: var(--accent-green); font-weight: 500; font-size: 0.9rem;">Bachelor Degree in Management Engineering | since a.y. 2025/2026</span>
+                        </div>
+                    </header>
+                    <p>Held with Arvid Perego.</p> 
+                    <p>A first course in linear algebra and analytic geometry.</p>
+                    <div class="pub-buttons">
+                        <a href="#" class="btn btn-doi">AulaWeb</a>
+                    </div>
+                </div>
+            </section>
+
+            <hr style="border: 0; height: 1px; background: #eee; margin: 40px 0;">
+
+            <section class="teaching-section">
+                <h2>Past Courses (as instructor)</h2>
+
+                <div class="tabs">
+                    <button class="tab-link active" onclick="openTab(event, 'trento')">U. Trento</button>
+                    <button class="tab-link" onclick="openTab(event, 'stockholm')">Stockholm U.</button>
+                    <!-- <button class="tab-link" onclick="openTab(event, 'genova_past')">U. Genova (Past)</button> -->
+                </div>
+
+                <div id="trento" class="tab-content active">
+                    <div class="cv-item">
+                        <div class="date">2021-2025</div>
+                        <div class="details">
+                            <h3>Geometry and Topology for Data Analysis</h3>
+                            <p class="institution">Master Degree in Mathematics and Data Science</p>
+                            <p style="font-size: 0.9rem; margin-top: 5px;">Introduction to persistent homology, algebraic statistics, numerical algebraic geometry, with a view towards applications in data analysis.</p>
+                        </div>
+                    </div>
+                    <div class="cv-item">
+                        <div class="date">2023-2025</div>
+                        <div class="details">
+                            <h3>Algebraic Geometry 1</h3>
+                            <p class="institution">Master Degree in Mathematics (with Edoardo Ballico)</p>
+                            <p style="font-size: 0.9rem; margin-top: 5px;">A first course in algebraic geometry (based on the first chapters of Shafarevich's first book).</p>
+                        </div>
+                    </div>
+                    <div class="cv-item">
+                        <div class="date">2020-2025</div>
+                        <div class="details">
+                            <h3>Geometria e Algebra Lineare</h3>
+                            <p class="institution">Bachelor Degree in Industrial Engineering</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="stockholm" class="tab-content">
+                    <div class="cv-item">
+                        <div class="date">2014/15</div>
+                        <div class="details">
+                            <h3>Mathematics III - Abstract Algebra</h3>
+                            <p class="institution">Bachelor Degree in Mathematics</p>
+                            <p style="font-size: 0.9rem; margin-top: 5px;">Basic group theory, isomorphism theorems, group actions, Sylow theorems, basic ring theory, extension fields.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="genova_past" class="tab-content">
+                    <p style="font-style: italic; color: #888;">Archive currently being updated.</p>
+                </div>
+            </section>
+        </main>
+
+        <aside class="sidebar" style="flex: 0 0 250px;">
+            <div class="project-card" style="padding: 20px; border-left: 3px solid #ccc;">
+                <h3 style="font-size: 1.1rem; margin-bottom: 15px;">Resources</h3>
+                <p style="font-size: 0.9rem; font-weight: bold; margin-bottom: 5px;"><b>Office Hours</b></p>
+                <p style="font-size: 0.9rem; margin-bottom: 15px;">by appointment: <a href="mailto:alessandro.oneto@unige.it"><strong>email me!</strong></a>.</p>
+                <!-- <p style="font-size: 0.9rem; font-weight: bold; margin-bottom: 5px;">Useful Links</p>
+                <ul style="list-style: none; font-size: 0.85rem;">
+                    <li style="margin-bottom: 8px;"><a href="#" class="db-link">Orario Lezioni DIMA</a></li>
+                    <li style="margin-bottom: 8px;"><a href="#" class="db-link">Manifesto degli Studi</a></li>
+                </ul> -->
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="funding-section">
+                <h3>Active Funding</h3>
+                <p>
+                    <b>Applied Algebraic Geometry of Tensors</b> (Prot. NBN7TL) by Ministry of University and Research (Italy) as part of the call relating to the sliding of the final rankings of the PRIN 2022 call.
+                </p>
+                <div class="funding-logo">
+                    <img src="images/logo_prin.png" alt="Logo Ministero dell'Università e della Ricerca" class="logo-placeholder">
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Alessandro Oneto. Built with the support of Gemini</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tab-link");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+</body>
+</html>

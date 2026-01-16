@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alessandro Oneto | Events</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">Alessandro Oneto</div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="curriculum.html">Curriculum</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="mentoring.html">Mentoring</a></li>
+                    <li><a href="events.html" class="active">Events</a></li>
+                    <li><a href="outreach.html">Outreach</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-wrapper container">
+        <main class="content">
+            <h1>Conferences, Seminars and Events</h1>
+            <p>Here is a list of my events that I have organized.</p>
+
+            <div class="tabs">
+                <button class="tab-link active" onclick="openTab(event, 'conferences')">Conferences</button>
+                <button class="tab-link" onclick="openTab(event, 'sessions')">Sessions</button>
+                <button class="tab-link" onclick="openTab(event, 'schools')">Schools</button>
+            </div>
+
+            <div id="conferences" class="tab-content active">
+                
+                <div class="project-card" style="border-left: 5px solid #ccc; padding: 20px; margin-bottom: 20px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 2px;"><a href="https://sites.google.com/unitn.it/inabag/inabag-conferences/2025-conference-gimigliano-day-trento" target="_blank">INABAG Conference 2026</a></h3>
+                    <span style="color: var(--accent-green); font-weight: 500; font-size: 0.9rem;">Siena, Italy | 3-4 September, 2026</span>
+                    <p class="mentor" style="font-size: 0.95rem; margin-top: 4px; margin-bottom: 2px; color: #333;">co-organized with Cristiano Bocci, Maria Chiara Brambilla, Emanuele Ventura</p>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">This is part of the third major event of the Italian Network for Applied and Birational Algebraic Geometry (INABAG). The event is structured into a Three-Day Summer School for graduate students and a Two-Day International Conference.</p>
+                </div>
+
+                <div class="project-card" style="border-left: 5px solid #ccc; padding: 20px; margin-bottom: 20px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 2px;"><a href="https://sites.google.com/unitn.it/inabag/inabag-conferences/2025-conference-gimigliano-day-trento" target="_blank">INABAG Conference 2025</a></h3>
+                    <span style="color: var(--accent-green); font-weight: 500; font-size: 0.9rem;">Trento, Italy | 30 June - 2 July, 2025</span>
+                    <p class="mentor" style="font-size: 0.95rem; margin-top: 4px; margin-bottom: 2px; color: #333;">co-organized with Elena Guardo, Elisa Postinghel, Pierpaola Santarsiero</p>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">Gathering international experts to present achievements in the theory of tensors. The conference also honored the 70th birthday of Sandro Gimigliano.</p>
+                </div>
+
+                <div class="project-card" style="border-left: 5px solid #ccc; padding: 20px; margin-bottom: 20px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 2px;"><a href="https://areeweb.polito.it/disma-excellence/tensors/tensors_index.html" target="_blank">TENSORS</a></h3>
+                    <span style="color: var(--accent-green); font-weight: 500; font-size: 0.9rem;">Poli. Torino, Italy | 10 September - 14 September, 2025</span>
+                    <p class="mentor" style="font-size: 0.95rem; margin-top: 4px; margin-bottom: 2px; color: #333;">co-organized with Ada Boralevi, Enrico Carlini, Letterio Gatto, Francesco Vaccarino</p>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">Workshop bringing together experts from different branches of mathematics and engineering. Main speakers: Luca Chiantini, Wolfgang Hackbush, Bernard Mourrain, Giorgio Ottaviani and Bernd Sturmfels.</p>
+                </div>
+
+                <div class="project-card" style="border-left: 5px solid #ccc; padding: 20px; margin-bottom: 20px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 2px;"><a href="https://sites.google.com/view/ippi2018/home" target="_blank">IPPI Workshop</a></h3>
+                    <span style="color: var(--accent-green); font-weight: 500; font-size: 0.9rem;">Poli. Torino, Italy | 22 March - 24 March, 2018</span>
+                    <p class="mentor" style="font-size: 0.95rem; margin-top: 4px; margin-bottom: 2px; color: #333;">co-organised with Enrico Carlini, Gianfranco Casnati, Elena Guardo, Alfio Ragusa</p>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">Following PRAGMATIC2017, this workshop helped young researchers present their work with feedback from senior researchers Cristiano Bocci and Jürgen Herzog.</p>
+                </div>
+
+                <div class="project-card" style="border-left: 5px solid #ccc; padding: 20px; margin-bottom: 20px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 2px;">Stockholm-Uppsala Mini-Conference</h3>
+                    <span style="color: var(--accent-green); font-weight: 500; font-size: 0.9rem;">Stockholm University, Sweden | 12 May - 13 May, 2016</span>
+                    <p class="mentor" style="font-size: 0.95rem; margin-top: 4px; margin-bottom: 2px; color: #333;">co-organised with O. Bergvall, A. Serio, and G. Sædén Ståhl</p>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">A mini-conference for PhD students to present their research in a friendly environment and network with international researchers.</p>
+                </div>
+
+            </div>
+
+            <div id="sessions" class="tab-content">
+                <div class="project-card" style="border-left: 5px solid #ccc; padding: 20px; margin-bottom: 15px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 2px;">Tensors in Algebraic Geometry</h3>
+                    <span style="color: var(--accent-green); font-weight: 500; font-size: 0.9rem;">TU Eindhoven, Netherlands | 10 July - 14 July, 2023</span>
+                    <p style="font-size: 0.9rem; font-style: italic; color: #555; margin-bottom: 4px;">mini-symposium at <a href="https://meetings.siam.org/program.cfm?CONFCODE=AG23" target="_blank">SIAM AG23</a></p>
+                    <p class="mentor" style="font-size: 0.95rem; color: #333;">co-organised with F. Gesmundo, L. Sodomaco, N. Tokcan</p>
+                </div>
+
+                <div class="project-card" style="border-left: 5px solid #ccc; padding: 20px; margin-bottom: 15px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 2px;">The algebra and geometry of tensors 1</h3>
+                    <span style="color: var(--accent-green); font-weight: 500; font-size: 0.9rem;">Texas A&M U., USA | 16 August - 20 August, 2021 (online)</span>
+                    <p style="font-size: 0.9rem; font-style: italic; color: #555; margin-bottom: 4px;">mini-symposium at <a href="https://meetings.siam.org/program.cfm?CONFCODE=AG21" target="_blank">SIAM AG21</a></p>
+                    <p class="mentor" style="font-size: 0.95rem; color: #333;">co-organised with N. Vannieuwenhoven</p>
+                </div>
+
+                <div class="project-card" style="border-left: 5px solid #ccc; padding: 20px; margin-bottom: 15px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 2px;">The algebra and geometry of tensors 2</h3>
+                    <span style="color: var(--accent-green); font-weight: 500; font-size: 0.9rem;">U. Bern, Switzerland | 9 July - 13 July, 2019</span>
+                    <p style="font-size: 0.9rem; font-style: italic; color: #555; margin-bottom: 4px;">mini-symposium at <a href="https://mathsites.unibe.ch/siamag19/" target="_blank">SIAM AG19</a></p>
+                    <p class="mentor" style="font-size: 0.95rem; color: #333;">co-organised with E. Angelini, E. Carlini</p>
+                </div>
+            </div>
+
+            <div id="schools" class="tab-content">
+                <div class="project-card" style="border-left: 5px solid #ccc; padding: 20px; margin-bottom: 20px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 2px;"><a href="https://sites.google.com/unitn.it/inabag/inabag-conferences/2025-conference-gimigliano-day-trento" target="_blank">INABAG Conference 2026</a></h3>
+                    <span style="color: var(--accent-green); font-weight: 500; font-size: 0.9rem;">Siena, Italy | 31 August - 2 September, 2026</span>
+                    <p class="mentor" style="font-size: 0.95rem; margin-top: 4px; margin-bottom: 2px; color: #333;">co-organized with Cristiano Bocci, Maria Chiara Brambilla, Emanuele Ventura</p>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">This is part of the third major event of the Italian Network for Applied and Birational Algebraic Geometry (INABAG). The event is structured into a Three-Day Summer School for graduate students and a Two-Day International Conference.</p>
+                </div>
+
+                <div class="project-card" style="border-left: 5px solid #ccc; padding: 20px; margin-bottom: 20px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 2px;"><a href="https://sites.google.com/view/time-2025-invariant-theory" target="_blank">TiME 2025</a></h3>
+                    <span style="color: var(--accent-green); font-weight: 500; font-size: 0.9rem;">Tromsø, Norway | 26 May - 30 May, 2025</span>
+                    <p style="font-size: 0.9rem; font-style: italic; color: #555; margin-bottom: 4px;">“Invariant Theory: from classics to modern developments"</p>
+                    <p class="mentor" style="font-size: 0.95rem; color: #333;">co-organised with K. Kohn, P. Santarsiero, E. Turatti</p>
+                    <p style="font-size: 0.85rem; margin-top: 10px;">Mini-courses by: Harm Derksen, Kristin deVleming, Giorgio Ottaviani, Michael Walter.</p>
+                </div>
+
+                <div class="project-card" style="border-left: 5px solid #ccc; padding: 20px; margin-bottom: 20px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 2px;"><a href="https://tensordec.maths.unitn.it/#masterclasses" target="_blank">Masterclass: Tensor Decompositions</a></h3>
+                    <span style="color: var(--accent-green); font-weight: 500; font-size: 0.9rem;">TensorDec Laboratory, U. of Trento | Annual Event</span>
+                    <ul style="font-size: 0.9rem; margin-top: 10px; color: #555; line-height: 1.6;">
+                        <li><b>2025:</b> Jeroen Zuiddam (U. Amsterdam)</li>
+                        <li><b>2024:</b> Neriman Tokcan (U. Massachusetts Boston)</li>
+                        <li><b>2023:</b> Kathlen Kohn (KTH Stockholm)</li>
+                        <li><b>2022:</b> Kaie Kubias (Aalto U.)</li>
+                        <li><b>2021:</b> Nick Vannieuwenhoven (KU Leuven)</li>
+                    </ul>
+                </div>
+
+                <div class="project-card" style="border-left: 5px solid #ccc; padding: 20px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 2px;"><a href="https://sites.google.com/view/time-2025-invariant-theory" target="_blank">TiME 2019</a></h3>
+                    <span style="color: var(--accent-green); font-weight: 500; font-size: 0.9rem;">Levico Terme, Italy | 2 September - 6 September, 2019</span>
+                    <p style="font-size: 0.9rem; font-style: italic; color: #555; margin-bottom: 4px;">"Curves and Surfaces: a history of shapes"</p>
+                    <p class="mentor" style="font-size: 0.95rem; color: #333;">co-organised with M. Gallet, K. Kohn, M. Panizzut, E. Ventura</p>
+                </div>
+            </div>
+            
+        </main>
+    </div>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="funding-section">
+                <h3>Active Funding</h3>
+                <p>
+                    <b>Applied Algebraic Geometry of Tensors</b> (Prot. NBN7TL) by Ministry of University and Research (Italy) as part of the call relating to the sliding of the final rankings of the PRIN 2022 call.
+                </p>
+                <div class="funding-logo">
+                    <img src="images/logo_prin.png" alt="Logo Ministero dell'Università e della Ricerca" class="logo-placeholder">
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Alessandro Oneto. Built with the support of Gemini</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tab-link");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+</body>
+</html>

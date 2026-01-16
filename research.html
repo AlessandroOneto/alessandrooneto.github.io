@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alessandro Oneto | Research</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        window.MathJax = {
+            tex: {
+            inlineMath: [['\\(', '\\)'], ['$', '$']],
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],
+            processEscapes: true
+            },
+            options: {
+            ignoreHtmlClass: 'tex2jax_ignore',
+            processHtmlClass: 'tex2jax_process'
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">Alessandro Oneto</div>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="curriculum.html">Curriculum</a></li>
+                    <li><a href="research.html" class="active">Research</a></li>
+                    <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="mentoring.html">Mentoring</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="outreach.html">Outreach</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-wrapper container">
+        <main class="content">
+            <h1>Research</h1>
+            
+            <p>
+                My research lies at the intersection of <strong>Commutative Algebra</strong> and <strong>Algebraic Geometry</strong>. I focus on developing algebraic and geometric frameworks to solve problems inspired by applied sciences, with a particular emphasis on <strong>tensor decomposition</strong>, the geometry of <strong>secant varieties</strong>, and <strong>algebraic statistics</strong>.
+            </p>
+
+            <div class="research-header-info">
+                <p>Find my work: 
+                    <a href="https://arxiv.org/search/?query=alessandro+oneto&searchtype=all&source=header" class="db-link">arXiv</a> • 
+                    <a href="https://orcid.org/0000-0002-8142-6382" class="db-link">ORCID</a> • 
+                    <a href="https://mathscinet.ams.org/mathscinet/author?authorId=1087088" class="db-link">MathSciNet</a> • 
+                    <a href="https://www.scopus.com/authid/detail.uri?authorId=56412830700" class="db-link">Scopus</a>
+                </p>
+            </div>
+
+            <div class="cv-sections">
+                <div class="tabs">
+                    <button class="tab-link active" onclick="openTab(event, 'papers')">Research Papers</button>
+                    <button class="tab-link" onclick="openTab(event, 'surveys')">Surveys</button>
+                    <button class="tab-link" onclick="openTab(event, 'preprints')">Preprints</button>
+                    <button class="tab-link" onclick="openTab(event, 'presentations')">Presentations</button>
+                </div>
+
+                <div id="papers" class="tab-content active">
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <span class="pub-title">Hadamard-Hitchcock Decompositions: identifiability and decomposition</span><br>
+                            <span class="pub-authors">with Nick Vannieuwenhoven</span><br>
+                            <span class="pub-journal">Mathematics of Computation, to appear (2026)</span>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://arxiv.org/abs/2308.06597" class="btn btn-arxiv">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <span class="pub-title">Postulation for 2-superfat points in the plane</span><br>
+                            <span class="pub-authors">with Stefano Canino, Maria Virginia Catalisano, Sandro Gimigliano, Monica Idà</span><br>
+                            <span class="pub-journal">Annali dell'Università di Ferrara, 71(4):59 (2025)</span>
+                        </div>
+                        <div class="pub-buttons">
+                             <a href="https://link.springer.com/article/10.1007/s11565-025-00614-z" class="btn btn-doi">doi</a>
+                            <a href="https://arxiv.org/abs/2501.16849" class="btn btn-arxiv">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Decomposition loci of tensors</div>
+                            <div class="pub-authors">with Alessandra Bernardi, Pierpaola Santarsiero</div>
+                            <div class="pub-journal">Journal of Symbolic Computation (Special Issue: MEGA 2024), 131:102451 (2025)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0747717125000331" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/2407.18138" class="btn btn-arxiv" target="_blank">arXiv</a>
+                            <a href="files/computations_decomposition_loci.m2" class="btn btn-m2" target="_blank">Macaulay2</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">On schemes evinced by generalized additive decompositions and their regularity</div>
+                            <div class="pub-authors">with Alessandra Bernardi, Daniele Taufer</div>
+                            <div class="pub-journal">Journal de Mathématiques Pures et Appliquées, 188:446-469 (2024)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0021782424000825" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/html/2309.12961v2" class="btn btn-arxiv" target="_blank">arXiv</a>
+                            <a href="https://github.com/DTaufer/SchemesEvincedByGADs" class="btn btn-github" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Waring decompositions of special ternary forms with different Hilbert functions</div>
+                            <div class="pub-authors">with Elena Angelini, Luca Chiantini</div>
+                            <div class="pub-journal">Contemporary Mathematics, 805:77-91 (2024)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://www.ams.org/books/conm/805/" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/2303.06780" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Non-defectivity of Segre-Veronese varieties</div>
+                            <div class="pub-authors">with Hirotachi Abo, Maria Chiara Brambilla, Francesco Galuppi</div>
+                            <div class="pub-journal">Proceedings of the American Mathematical Society Series B, 11(1):589-602 (2024)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://www.ams.org/journals/bproc/2024-11-51/S2330-1511-2024-00248-8/" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/2406.20057" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Identifiability for mixtures of centered Gaussians and sums of powers of quadratics</div>
+                            <div class="pub-authors">with Alex Casarotti, Mateusz Michałek, Alexander Taveira Blomenhofer</div>
+                            <div class="pub-journal">Bulletin of London Mathematical Society, 55(5):2407-2424 (2023)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/blms.12871" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/2204.09356v2" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Strength and slice rank of forms are generically equal</div>
+                            <div class="pub-authors">with Edoardo Ballico, Arthur Bik, Emanuele Ventura</div>
+                            <div class="pub-journal">Israel Journal of Mathematics, 254(1):275-291 (2023)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://link.springer.com/article/10.1007/s11856-022-2397-0" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/2102.11549" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Secant non-defectivity via collisions of fat points</div>
+                            <div class="pub-authors">with Francesco Galuppi</div>
+                            <div class="pub-journal">Advances in Mathematics, 409:108657 (2022)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0001870822004741" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/2104.02522" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">On the strength of general polynomials</div>
+                            <div class="pub-authors">with Arthur Bik</div>
+                            <div class="pub-journal">Linear and Multilinear Algebra, 70(21):6114-6140 (2022)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://www.tandfonline.com/doi/full/10.1080/03081087.2021.1947955" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/2005.08617" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">The set of forms with bounded strength is not closed</div>
+                            <div class="pub-authors">with Edoardo Ballico, Arthur Bik, Emanuele Ventura</div>
+                            <div class="pub-journal">Comptes Rendus Mathématique, 360:371-380 (2022)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://doi.10.5802/crmath.302.pdf" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/2012.01237" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Geometric conditions for strict submultiplicativity of rank and border rank</div>
+                            <div class="pub-authors">with Edoardo Ballico, Alessandra Bernardi, Fulvio Gesmundo, Emanuele Ventura</div>
+                            <div class="pub-journal">Annali di Matematica Pura ed Applicata, 200(1):187-210 (2021)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://link.springer.com/article/10.1007/s10231-020-00991-6" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/1909.03811" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">On minimal decompositions of low rank symmetric tensors</div>
+                            <div class="pub-authors">with Bernard Mourrain</div>
+                            <div class="pub-journal">Linear Algebra and its Applications, 607:347-377 (2020)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0024379520303207" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/pdf/1805.11940v1" class="btn btn-arxiv" target="_blank">arXiv</a>
+                            <a href="files/test_ApolarLowRank.m2" class="btn btn-m2" target="_blank">Macaulay2</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Unexpected curves arising from special line arrangements</div>
+                            <div class="pub-authors">with Michela Di Marca, Gregorz Małara</div>
+                            <div class="pub-journal">Journal of Algebraic Combinatorics, 51(2):171-194 (2020)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://link.springer.com/article/10.1007/s10801-019-00871-0" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/pdf/1804.02730" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Tangential varieties of Segre-Veronese surfaces are never defective</div>
+                            <div class="pub-authors">with Maria Virginia Catalisano</div>
+                            <div class="pub-journal">Revista Matematica Complutense, 33(1):95-324 (2020)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://link.springer.com/article/10.1007/s13163-019-00305-2" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/1805.11964" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">On the Hilbert function of general fat points in \(\mathbb{P}^1\times\mathbb{P}^1\)</div>
+                            <div class="pub-authors">with Enrico Carlini, Maria Virginia Catalisano</div>
+                            <div class="pub-journal">Michigan Mathematical Journal, 69(3):601-632 (2020)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://projecteuclid.org/journals/michigan-mathematical-journal/volume-69/issue-3/On-the-Hilbert-Function-of-General-Fat-Points-in-P/10.1307/mmj/1596700821.full" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/1711.06193" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">The monic rank</div>
+                            <div class="pub-authors">with Arthur Bik, Jan Draisma, Emanuele Ventura</div>
+                            <div class="pub-journal">Mathematics of Computation, 89(325):2481-2505 (2020)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://www.ams.org/journals/mcom/2020-89-325/S0025-5718-2020-03512-1/" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/pdf/1901.11354" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">On generic and maximal k-ranks of binary forms</div>
+                            <div class="pub-authors">with Samuel Lundqvist, Boris Shapiro, Bruce Reznick</div>
+                            <div class="pub-journal">Journal of Pure and Applied Algebra, 223(5):2062-2079 (2019)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0022404918302123" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/1711.05014" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Partially symmetric variants of Comon's problem via simultaneous rank</div>
+                            <div class="pub-authors">with Fulvio Gesmundo, Emanuele Ventura</div>
+                            <div class="pub-journal">SIAM Journal on Matrix Analysis and Applications, 40(4):1453-1477 (2019)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://epubs.siam.org/doi/10.1137/18M1225422" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/1810.07679v2" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">On the quantum periods of del Pezzo surfaces with \(\frac{1}{3}(1,1)\) singularities</div>
+                            <div class="pub-authors">with Andrea Petracci</div>
+                            <div class="pub-journal">Advances in Geometry, 18(3):303-336 (2018)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://www.degruyterbrill.com/document/doi/10.1515/advgeom-2017-0048/html" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/1507.08589" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Waring-like decompositions of polynomials, 1</div>
+                            <div class="pub-authors">with Maria Virginia Catalisano, Luca Chiantini, Anthony Vito Geramita</div>
+                            <div class="pub-journal">Linear Algebra and Its Applications, 533:311-325 (2017)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://www.sciencedirect.com/science/article/pii/S002437951730441X" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/1511.07789" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Waring loci and the Strassen conjecture</div>
+                            <div class="pub-authors">with Enrico Carlini, Maria Virginia Catalisano</div>
+                            <div class="pub-journal">Advances in Mathematics, 314:630-662 (2017)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0001870816305758" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/1605.00384" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">On the real rank of monomials</div>
+                            <div class="pub-authors">with Enrico Carlini, Mario Kummer, Emanuele Ventura</div>
+                            <div class="pub-journal">Mathematische Zeitschrift, 286(1-2):571-577 (2017)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://link.springer.com/article/10.1007/s00209-016-1774-y" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/1602.01151" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Minkowski sums and hadamard products of algebraic varieties</div>
+                            <div class="pub-authors">with Netaniel Friedenberg, Robert L. Williams</div>
+                            <div class="pub-journal">Fields Institute Communications vol. 80, Combinatorial Algebraic Geometry (eds. G. G. Smith, B. Sturmfels), 133-157 (2017)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://link.springer.com/chapter/10.1007/978-1-4939-7486-3_7" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/1701.03191" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Mirror symmetry and the classification of orbifold del pezzo surfaces</div>
+                            <div class="pub-authors">with M. Akthar, T. Coates, A. Corti, L. Heuberger, A. Kasprzyk, A. Petracci, T. Prince, K. Tveiten</div>
+                            <div class="pub-journal">Proceedings of the American Mathematical Society, 144(2):513-527 (2016)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://www.ams.org/journals/proc/2016-144-02/S0002-9939-2015-12876-6/" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/1501.05334" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">On a class of power ideals</div>
+                            <div class="pub-authors">with Joergen Backelin</div>
+                            <div class="pub-journal">Journal of Pure and Applied Algebra, 219(8):3158-3180 (2015)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0022404914002886" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/1403.4793" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Monomials as Sums of k-th powers of forms</div>
+                            <div class="pub-authors">with Enrico Carlini</div>
+                            <div class="pub-journal">Communications in Algebra, 43(2):650-658 (2015)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://www.tandfonline.com/doi/full/10.1080/00927872.2013.842247" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/1305.4553" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+                    
+                        <!-- <div class="pub-buttons">
+                            <a href="#" class="btn btn-doi">DOI</a>
+                            <a href="#" class="btn btn-arxiv">arXiv</a>
+                            <a href="#" class="btn btn-zenodo">Zenodo</a>
+                            <a href="#" class="btn btn-github">GitHub</a>
+                            <a href="#" class="btn btn-m2">Macaulay2</a>
+                        </div> -->
+                </div>
+
+                <div id="surveys" class="tab-content">
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Ranks of tensors: geometry and applications</div>
+                            <div class="pub-authors">with Emanuele Ventura</div>
+                            <div class="pub-journal">Bollettino dell'Unione Matematica Italiana, 18(3):751-778 (2025)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://link.springer.com/article/10.1007/s40574-025-00472-9" class="btn btn-doi" target="_blank">DOI</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">The Hitchhiker guide to: Secant varieties and tensor decomposition</div>
+                            <div class="pub-authors">with Alessandra Bernardi, Enrico Carlini, Maria Virginia Catalisano, Alessandro Gimigliano</div>
+                            <div class="pub-journal">Mathematics, 6(12):314 (2018), special issue: Decomposability of Tensors (ed. L. Chiantini)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://www.mdpi.com/2227-7390/6/12/314" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/1812.10267" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Algebraic Stories from One and from the Other Pockets</div>
+                            <div class="pub-authors">with Ralf Fröberg, Samuel Lundqvist, Boris Shapiro</div>
+                            <div class="pub-journal">Arnold Mathematical Journal, 4(2):137-160 (2018)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://link.springer.com/article/10.1007/s40598-018-0088-z" class="btn btn-doi" target="_blank">DOI</a>
+                            <a href="https://arxiv.org/abs/1801.01692" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="preprints" class="tab-content">
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Hadamard ranks of algebraic varieties</div>
+                            <div class="pub-authors">with Dario Antolini, Guido Montúfar</div>
+                            <div class="pub-journal">arXiv:2510.05231 (2025)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://arxiv.org/abs/2510.05231" class="btn btn-arxiv" target="_blank">arXiv</a>
+                            <a href="https://zenodo.org/records/15837961" class="btn btn-zenodo" target="_blank">Zenodo</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Polynomials of small slice rank and strength</div>
+                            <div class="pub-authors">with Cosimo Flavi, Fulvio Gesmundo, Emanuele Ventura</div>
+                            <div class="pub-journal">arXiv:2509.12322 (2025)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://arxiv.org/abs/2509.12322" class="btn btn-arxiv" target="_blank">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Algebraic surfaces as Hadamard products of curves</div>
+                            <div class="pub-authors">with Dario Antolini, Edoardo Ballico</div>
+                            <div class="pub-journal">arXiv:2502.18813 (2025)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="https://arxiv.org/abs/2502.18813" class="btn btn-arxiv" target="_blank">arXiv</a>
+                            <a href="https://zenodo.org/records/14888009" class="btn btn-zenodo" target="_blank">Zenodo</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="presentations" class="tab-content">
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Algebraic and geometric properties of minimal tensor rank decompositions</div>
+                            <div class="pub-journal">BM60: Bernard Mourrain's 60th Birthday, Leipzig, Germany (August 2024)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="files/slides/2024_BO60.pdf" class="btn btn-slides" target="_blank">Slides (PDF)</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Hadamard-Hitchcock Decompositions</div>
+                            <div class="pub-journal">
+                                TAGA 2024 (Tensors: Algebra, Geometry and Applications), Fort Collins (June 2024)<br>
+                                SIAM Conference on Applied Algebraic Geometry, Eindhoven (July 2023)
+                            </div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="files/slides/2023_SIAMAG.pdf" class="btn btn-slides" target="_blank">Slides (PDF)</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Identifiability of centered Gaussian Mixtures and sums of powers of quadratics</div>
+                            <div class="pub-journal">Joint Mathematical Meeting 2023, Boston (January 2023)</div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="files/slides/2023_JMM.pdf" class="btn btn-slides" target="_blank">Slides (PDF)</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">On the strength of general polynomials</div>
+                            <div class="pub-authors"></div> <div class="pub-journal">
+                                SIAM Conference on Applied Algebraic Geometry, Texas A&M U. (August 2021)<br>
+                                TensorTalk, QMATH, U. Copenhagen (May 2020)
+                            </div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="files/slides/2021_SIAMAG.pdf" class="btn btn-slides" target="_blank">Slides (PDF)</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Secant non-defectivity of Segre-Veronese varieties via collapsing points</div>
+                            <div class="pub-journal">
+                                AMS-EMS-SMF International Meeting, Grenoble (July 2022)<br>
+                                MEGA, U. Tromsø (June 2021)
+                            </div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="files/slides/2022_AMSEMSSMF.pdf" class="btn btn-slides" target="_blank">Slides (PDF)</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Variants of Comon's problem via simultaneous rank</div>
+                            <div class="pub-journal">
+                                Congresso UMI, U. Pavia (September 2019)<br>
+                                SIAM Conference on Applied Algebraic Geometry, U. Bern (July 2019)
+                            </div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="files/slides/2019_UMI.pdf" class="btn btn-slides" target="_blank">Slides (PDF)</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Waring loci and decompositions of low rank symmetric tensors</div>
+                            <div class="pub-journal">
+                                Workshop for Young Researchers in Mathematics, U. Bucharest (June 2019)<br>
+                                Discrete Math. Seminar, U. Bern (November 2018)<br>
+                                Seminari di Algebra e Geometria, Poli. Milano (December 2018)
+                            </div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="files/slides/2018_PoliMi.pdf" class="btn btn-slides" target="_blank">Slides (PDF)</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">A new question on planar polynomial interpolation and line arrangements</div>
+                            <div class="pub-journal">
+                                IPPI Workshop, Poli. Torino (March 2018)<br>
+                                Seminari di Algebra e Geometria, U. Genova (February 2018)
+                            </div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="files/slides/2018_UniGe.pdf" class="btn btn-slides" target="_blank">Slides (PDF)</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-item">
+                        <div class="pub-main">
+                            <div class="pub-title">Hilbert function of general fat points in \(\mathbb{P}^1\times\mathbb{P}^1\)</div>
+                            <div class="pub-journal">
+                                Seminari de Geometria Algebraica, U. Barcelona (February 2018)<br>
+                                Workshop on Syzygies, U. Trento (September 2017)
+                            </div>
+                        </div>
+                        <div class="pub-buttons">
+                            <a href="files/slides/2018_UniGe.pdf" class="btn btn-slides" target="_blank">Slides (PDF)</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="funding-section">
+                <h3>Active Funding</h3>
+                <p>
+                    <b>Applied Algebraic Geometry of Tensors</b> (Prot. NBN7TL) by Ministry of University and Research (Italy) as part of the call relating to the sliding of the final rankings of the PRIN 2022 call.
+                </p>
+                <div class="funding-logo">
+                    <img src="images/logo_prin.png" alt="Logo Ministero dell'Università e della Ricerca" class="logo-placeholder">
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Alessandro Oneto. Built with the support of Gemini</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].classList.remove("active");
+            }
+            tablinks = document.getElementsByClassName("tab-link");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active");
+            }
+            document.getElementById(tabName).classList.add("active");
+            evt.currentTarget.classList.add("active");
+        }
+    </script>
+</body>
+</html>

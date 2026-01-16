@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alessandro Oneto | Mentoring</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">Alessandro Oneto</div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="curriculum.html">Curriculum</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="mentoring.html" class="active">Mentoring</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="outreach.html">Outreach</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-wrapper container">
+        <main class="content">
+            <h1>Mentoring and Supervision</h1>
+            <p>I am committed to supervise students at all levels, from undergraduate and master's thesis projects to postdoctoral researchers. <br> If you are interested in working with me, please feel free to <a href="mailto:alessandro.oneto@unige.it">get in touch</a>!</p>
+
+            <div class="tabs">
+                <button class="tab-link active" onclick="openTab(event, 'Postdoc')">Postdoc</button>
+                <button class="tab-link" onclick="openTab(event, 'PhD')">PhD Students</button>
+                <button class="tab-link" onclick="openTab(event, 'MSc')">MSc Students</button>
+                <button class="tab-link" onclick="openTab(event, 'BSc')">BSc Students</button>
+            </div>
+
+            <div id="Postdoc" class="tab-content active">
+                <h2 style="font-size: 1.2rem; margin: 20px 0 10px 0;">University of Trento</h2>
+                <div class="project-card" style="border-left: 5px solid #ccc; padding: 20px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 2px;">Stefano Canino</h3>
+                    <span style="color: var(--accent-green); font-weight: 500; font-size: 0.9rem;">since Nov 2025</span>
+                    <p style="font-size: 0.9rem; font-style: italic; color: #555; margin-top: 5px; margin-bottom: 0;">Topic: secant varieties, tensor decompositions, zero-dimensional schemes</p>
+                </div>
+            </div>
+
+            <div id="PhD" class="tab-content">
+                <h2 style="font-size: 1.2rem; margin: 20px 0 10px 0;">University of Trento</h2>
+                
+                <div class="project-card" style="border-left: 5px solid #ccc; padding: 20px; margin-bottom: 15px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 2px;">Carlotta Vielmo</h3>
+                    <span style="color: var(--accent-green); font-weight: 500; font-size: 0.9rem;">since Nov 2022</span>
+                    <p class="mentor">co-supervisors: L. A. Bianchi, M. Maracci (U. Pisa)</p>
+                    <p>Topic: mathematics and statistics education, argumentation</p>
+                    <p class="alert">!!! currently on job market: expected defense in Summer 2026 !!!</p>
+                </div>
+
+                <div class="project-card" style="border-left: 5px solid #ccc; padding: 20px; margin-bottom: 15px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 2px;">Dario Antolini</h3>
+                    <span style="color: var(--accent-green); font-weight: 500; font-size: 0.9rem;">since Nov 2023</span>
+                    <p class="mentor">co-supervisor: Elisa Postinghel</p>
+                    <p>Topic: tropical geometry, tensor decompositions, rigidity theory</p>
+                    <p class="alert" style="color: darkred;">!!! currently on job market: expected defense in Fall 2026 !!!</p>
+                </div>
+
+                <div class="project-card" style="border-left: 5px solid #ccc; padding: 20px; margin-bottom: 15px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 2px;">Oriol Reig Fité</h3>
+                    <span style="color: var(--accent-green); font-weight: 500; font-size: 0.9rem;">since Nov 2024</span>
+                    <p class="mentor" style="font-size: 0.95rem; margin-top: 4px; margin-bottom: 2px; color: #333;">as co-supervisor; supervisors: Alessandra Bernardi, Bernard Mourrain (Inria Sophia Antipolis)</p>
+                    <p style="font-size: 0.9rem; font-style: italic; color: #555;">Topic: zero-dimensional schemes, tensor decompositions</p>
+                </div>
+            </div>
+
+            <div id="MSc" class="tab-content">
+                <h2 style="font-size: 1.2rem; margin: 20px 0 10px 0;">University of Trento</h2>
+                
+                <div class="cv-item"><div class="date">Mar 2026 <br> <span style="font-weight: lighter;">expected</span></div><div class="details"><h3>Ilaria Pellegrinelli</h3><p class="mentor" style="font-size: 0.95rem; margin-top: 2px; color: #333;">co-supervisor: Vincenzo Galgano (MPI Dresden)</p></div></div>
+                
+                <div class="cv-item"><div class="date">Mar 2026 <br> <span style="font-weight: lighter;">expected</span></div><div class="details"><h3>Martino Lepri</h3><p class="mentor" style="font-size: 0.95rem; margin-top: 2px; color: #333;">co-supervisor: Marina Garrote (U. Pompeu Fabra)</p></div></div>
+                
+                <div class="cv-item"><div class="date">Mar 2026 <br> <span style="font-weight: lighter;">expected</span></div><div class="details"><h3>Marianna Zampini</h3><p class="mentor" style="font-size: 0.95rem; margin-top: 2px; color: #333;">co-supervisor: Claudia Landi (U. Modena-Reggio Emilia)</p></div></div>
+                
+                <div class="cv-item"><div class="date">Mar 20256 <br> <span style="font-weight: lighter;">expected</span></div><div class="details"><h3>Enrico Maria Ferrari</h3><p class="mentor" style="font-size: 0.95rem; margin-top: 2px; color: #333;">co-supervisor: Carles Casacuberta (U. Barcelona)</p></div></div>
+                
+                <div class="cv-item"><div class="date">Dec 2025</div><div class="details"><h3>Giacomo Parolin</h3><p style="font-size: 0.9rem; font-style: italic; margin-bottom: 0; color: #555;">Title: Differentiable Euler Characteristic Transform for Molecular Prediction</p><p class="mentor" style="font-size: 0.95rem; margin-top: 2px; color: #333;">co-supervisor: Bastian Rieck (U. Freiburg)</p></div></div>
+                
+                <div class="cv-item"><div class="date">Mar 2025</div><div class="details"><h3>Andrea Martinelli</h3><p style="font-size: 0.9rem; font-style: italic; margin-bottom: 0; color: #555;">Title: Towards Stability for Deep Learning via Topological Data Analysis</p><p class="mentor" style="font-size: 0.95rem; margin-top: 2px; color: #333;">co-supervisor: Martina Scolamiero (KTH Stockholm)</p></div></div>
+                
+                <div class="cv-item"><div class="date">Mar 2024</div><div class="details"><h3>Ioannis-P. Ioannidis</h3><p style="font-size: 0.9rem; font-style: italic; margin-bottom: 0; color: #555;">Title: Analysis of the impacts of Panama canal closure and red sea conflict on the shipping industry</p><p class="mentor" style="font-size: 0.95rem; margin-top: 2px; color: #333;">co-supervisor: Diego Giuliani</p></div></div>
+                
+                <div class="cv-item"><div class="date">Oct 2023</div><div class="details"><h3>Surbhi Malhotra</h3><p style="font-size: 0.9rem; font-style: italic; margin-bottom: 0; color: #555;">Title: Multi-omics integrative analysis via tensor decomposition techniques</p><p class="mentor" style="font-size: 0.95rem; margin-top: 2px; color: #333;">as co-supervisor, supervisor: Mario Lauria</p></div></div>
+                
+                <div class="cv-item"><div class="date">Mar 2023</div><div class="details"><h3>Matteo Tomasi</h3><p style="font-size: 0.9rem; font-style: italic; margin-bottom: 0; color: #555;">Title: Matematici per Gioco: un laboratorio matematico all'interno del Festival della Scienza 2022</p><p class="mentor" style="font-size: 0.95rem; margin-top: 2px; color: #333;">co-supervisor: A. Del Zozzo</p></div></div>
+                
+                <div class="cv-item"><div class="date">Mar 2023</div><div class="details"><h3>Giulia Bazzucco</h3><p style="font-size: 0.9rem; font-style: italic; margin-bottom: 0; color: #555;">Title: Multivariate function approximation via Chebyshev interpolation and Tucker decomposition</p><p class="mentor" style="font-size: 0.95rem; margin-top: 2px; color: #333;">co-supervisor: Nick Vannieuwenhoven (KU Leuven)</p></div></div>
+                
+                <div class="cv-item"><div class="date">Dec 2022</div><div class="details"><h3>Davide Tezza</h3><p style="font-size: 0.9rem; font-style: italic; margin-bottom: 0; color: #555;">Title: Design automatization of Quantum Machine Learning algorithms</p><p class="mentor" style="font-size: 0.95rem; margin-top: 2px; color: #333;">co-supervisor: Massimiliano Incudini (U. Verona and Data Reply)</p></div></div>
+
+                <div class="cv-item"><div class="date">July 2022</div><div class="details"><h3>Helena Beltrani</h3><p style="font-size: 0.9rem; font-style: italic; margin-bottom: 0; color: #555;">Title: Financial crashes: topological data analysis and wavelets analysis</p><p class="mentor" style="font-size: 0.95rem; margin-top: 2px; color: #333;">co-supervisor: Alfredo Peris (UPV Valencia)</p></div></div>
+            </div>
+
+            <div id="BSc" class="tab-content">
+                <h2 style="font-size: 1.2rem; margin: 20px 0 10px 0;">University of Trento</h2>
+                <div class="cv-item"><div class="date">Mar 2025</div><div class="details"><h3>Leon Vaia</h3><p style="font-size: 0.9rem; font-style: italic; margin-bottom: 0; color: #555;">Title: Discrete Morse Theory</p></div></div>
+                
+                <div class="cv-item"><div class="date">Mar 2025</div><div class="details"><h3>Maia Santi</h3><p style="font-size: 0.9rem; font-style: italic; margin-bottom: 0; color: #555;">Title: Menecmo e la cubica gobba: una storia per avvicinare alla geometria algebrica</p></div></div>
+                
+                <div class="cv-item"><div class="date">Oct 2022</div><div class="details"><h3>Luis Abaitua</h3><p style="font-size: 0.9rem; font-style: italic; margin-bottom: 0; color: #555;">Title: Persistent Homology and Applications to speech recognition</p><p class="mentor" style="font-size: 0.95rem; margin-top: 2px; color: #333;">Erasmus student from UPV/EHU U. Basque Country (Spain)</p></div></div>
+
+                <h2 style="font-size: 1.2rem; margin: 30px 0 10px 0;">Stockholm University</h2>
+                <div class="cv-item"><div class="date">May 2015</div><div class="details"><h3>George Mouselli</h3><p style="font-size: 0.9rem; font-style: italic; margin-bottom: 0; color: #555;">Title: Apolarity Theory and Macaulay's Theorem</p></div></div>
+            </div>
+            
+        </main>
+    </div>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="funding-section">
+                <h3>Active Funding</h3>
+                <p>
+                    <b>Applied Algebraic Geometry of Tensors</b> (Prot. NBN7TL) by Ministry of University and Research (Italy) as part of the call relating to the sliding of the final rankings of the PRIN 2022 call.
+                </p>
+                <div class="funding-logo">
+                    <img src="images/logo_prin.png" alt="Logo Ministero dell'Università e della Ricerca" class="logo-placeholder">
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Alessandro Oneto. Built with the support of Gemini</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tab-link");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+</body>
+</html>
