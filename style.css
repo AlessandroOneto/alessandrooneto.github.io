@@ -103,6 +103,37 @@ body {
     margin-bottom: 20px;
 }
 
+/* Di default questa sezione è nascosta (Desktop) */
+.mobile-photo-container {
+    display: none;
+}
+
+/* Regole per Mobile (sotto i 768px) */
+@media (max-width: 768px) {
+    .mobile-photo-container {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .mobile-photo {
+        width: 100%;          /* Occupa tutta la larghezza dello schermo */
+        height: auto;         /* Mantiene le proporzioni originali */
+        max-height: 400px;    /* Opzionale: evita che la foto diventi troppo lunga verticalmente */
+        display: block;
+        object-fit: cover;    /* Taglia leggermente l'immagine se necessario per riempire il width */
+        object-position: center 20%; /* Sposta l'inquadratura leggermente verso l'alto */
+    }
+
+    /* Assicuriamoci che la vecchia foto profilo rimanga nascosta 
+       se è dentro la sidebar che viene nascosta o spostata */
+    .profile-photo, .profile-image {
+        display: none !important;
+    }
+}
+
 /* --- CONTACTS (PROJECT-STYLE) --- */
 .contacts {
     background: #ffffff;
