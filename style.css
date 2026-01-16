@@ -109,7 +109,7 @@ body {
 }
 
 /* Regole per Mobile (sotto i 768px) */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .mobile-photo-container {
         display: flex;         /* Usa flexbox per centrare il contenuto */
         justify-content: center; 
@@ -123,7 +123,6 @@ body {
     .mobile-photo {
         width: 100%;          /* Occupa tutta la larghezza dello schermo */
         height: auto;         /* Mantiene le proporzioni originali */
-        max-height: 400px;    /* Opzionale: evita che la foto diventi troppo lunga verticalmente */
         object-fit: cover;    /* Taglia leggermente l'immagine se necessario per riempire il width */
         object-position: center 20%; /* Sposta l'inquadratura leggermente verso l'alto */
     }
@@ -221,7 +220,7 @@ body {
     padding-top: 15px;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1024px) {
     .contacts.project-card {
         align-items: center !important; 
         text-align: center !important;
@@ -643,7 +642,7 @@ footer {
 /* Nascondiamo la checkbox del menu */
 .menu-toggle { display: none; }
 
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
     /* Reset globale di sicurezza per evitare scorrimento orizzontale */
     html, body {
         overflow-x: hidden;
