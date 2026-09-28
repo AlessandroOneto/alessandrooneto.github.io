@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,14 +13,14 @@
         <div class="nav-container">
             <div class="logo">Alessandro Oneto <span style="font-size: small;">(he/his)</span></div>
 
-            <input type="checkbox" id="menu-toggle" class="menu-toggle">
-            <label for="menu-toggle" class="hamburger">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Show navigation menu" aria-controls="site-navigation">
+            <label for="menu-toggle" class="hamburger" aria-hidden="true">
                 <span></span>
                 <span></span>
                 <span></span>
             </label>
 
-            <nav class="nav-menu">
+            <nav class="nav-menu" id="site-navigation">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="curriculum.html" class="active">Curriculum</a></li>
@@ -114,7 +114,7 @@
                     <div class="cv-item">
                         <span class="date">2012</span>
                         <div class="details">
-                            <h3>Master Degree in Mathematics</h3>
+                            <h3>Master's degree in Mathematics</h3>
                             <p class="institution">Università di Genova, Italy</p>
                             <p class="mentor">Supervisors: Maria Virginia Catalisano, Enrico Carlini (external)</p>
                         </div>
@@ -122,7 +122,7 @@
                     <div class="cv-item">
                         <span class="date">2010</span>
                         <div class="details">
-                            <h3>Bachelor Degree in Mathematics</h3>
+                            <h3>Bachelor's degree in Mathematics</h3>
                             <p class="institution">Università di Genova, Italy</p>
                             <p class="mentor">Supervisors: Anthony Vito Geramita, Maria Virginia Catalisano</p>
                         </div>
@@ -136,7 +136,7 @@
                     <li><strong>Principal Investigator of PRIN2022SC project <i>Applied Algebraic Geometry of Tensors</i></strong> (Prot. NBN7TL) <br>
                         by Ministry of University and Research, Italy. <br>
                         as part of the call relating to the sliding of the final rankings of the PRIN 2022 call. <br>
-                        Other unites: Emanuele Ventura (Poli. di Torino, co-PI), Maria Chiara Brambilla (U. Poli. delle Marche), Cristiano Bocci (U. di Siena).
+                        Other units: Emanuele Ventura (Poli. di Torino, co-PI), Maria Chiara Brambilla (U. Poli. delle Marche), Cristiano Bocci (U. di Siena).
                         
                     </li>
                     <li><strong>24 months Humboldt Research Fellowship</strong> <br>

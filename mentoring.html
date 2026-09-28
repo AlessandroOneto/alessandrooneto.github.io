@@ -12,13 +12,13 @@
     <header class="navbar">
         <div class="nav-container">
             <div class="logo">Alessandro Oneto <span style="font-size: small;">(he/his)</span></div>
-            <input type="checkbox" id="menu-toggle" class="menu-toggle">
-            <label for="menu-toggle" class="hamburger">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Show navigation menu" aria-controls="site-navigation">
+            <label for="menu-toggle" class="hamburger" aria-hidden="true">
                 <span></span>
                 <span></span>
                 <span></span>
             </label>
-            <nav class="nav-menu">
+            <nav class="nav-menu" id="site-navigation">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="curriculum.html">Curriculum</a></li>
@@ -35,7 +35,7 @@
     <div class="page-wrapper container">
         <main class="content">
             <h1>Mentoring and Supervision</h1>
-            <p>I am committed to supervise students at all levels, from undergraduate and master's thesis projects to postdoctoral researchers. <br> If you are interested in working with me, please feel free to <a href="mailto:alessandro.oneto@unige.it">get in touch</a>!</p>
+            <p>I am committed to supervising students at all levels, from undergraduate and master's thesis students to postdoctoral researchers. <br> If you are interested in working with me, please feel free to <a href="mailto:alessandro.oneto@unige.it">get in touch</a>!</p>
 
             <div class="tabs">
                 <button class="tab-link active" onclick="openTab(event, 'Postdoc')">Postdoc (1)</button>

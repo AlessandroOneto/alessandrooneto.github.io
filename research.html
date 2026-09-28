@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,14 +28,14 @@
         <div class="nav-container">
             <div class="logo">Alessandro Oneto <span style="font-size: small;">(he/his)</span></div>
 
-            <input type="checkbox" id="menu-toggle" class="menu-toggle">
-            <label for="menu-toggle" class="hamburger">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Show navigation menu" aria-controls="site-navigation">
+            <label for="menu-toggle" class="hamburger" aria-hidden="true">
                 <span></span>
                 <span></span>
                 <span></span>
             </label>
 
-            <nav class="nav-menu">
+            <nav class="nav-menu" id="site-navigation">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="curriculum.html">Curriculum</a></li>
@@ -394,7 +394,7 @@
 
                     <div class="pub-item">
                         <div class="pub-main">
-                            <div class="pub-title">Mirror symmetry and the classification of orbifold del pezzo surfaces</div>
+                            <div class="pub-title">Mirror symmetry and the classification of orbifold del Pezzo surfaces</div>
                             <div class="pub-authors">with M. Akthar, T. Coates, A. Corti, L. Heuberger, A. Kasprzyk, A. Petracci, T. Prince, K. Tveiten</div>
                             <div class="pub-journal">Proceedings of the American Mathematical Society, 144(2):513-527 (2016)</div>
                         </div>
@@ -455,7 +455,7 @@
 
                     <div class="pub-item">
                         <div class="pub-main">
-                            <div class="pub-title">The Hitchhiker guide to: Secant varieties and tensor decomposition</div>
+                            <div class="pub-title">The Hitchhiker's Guide to: Secant Varieties and Tensor Decomposition</div>
                             <div class="pub-authors">with Alessandra Bernardi, Enrico Carlini, Maria Virginia Catalisano, Alessandro Gimigliano</div>
                             <div class="pub-journal">Mathematics, 6(12):314 (2018), special issue: Decomposability of Tensors (ed. L. Chiantini)</div>
                         </div>
@@ -487,7 +487,7 @@
                     <div class="pub-item">
                         <div class="pub-main">
                             <div class="pub-title">On Waring rank jumps via critical rank-one approximations</div>
-                            <div class="pub-authors">with Pierpaola Santarsiore, Ettore Teixeira Turatti</div>
+                            <div class="pub-authors">with Pierpaola Santarsiero, Ettore Teixeira Turatti</div>
                             <div class="pub-journal">arXiv:2605.04695 (2026)</div>
                         </div>
                         <div class="pub-buttons">

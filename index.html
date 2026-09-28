@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,14 +13,14 @@
         <div class="nav-container">
             <div class="logo">Alessandro Oneto <span style="font-size: small;">(he/his)</span></div>
             
-            <input type="checkbox" id="menu-toggle" class="menu-toggle">
-            <label for="menu-toggle" class="hamburger">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Show navigation menu" aria-controls="site-navigation">
+            <label for="menu-toggle" class="hamburger" aria-hidden="true">
                 <span></span>
                 <span></span>
                 <span></span>
             </label>
 
-            <nav class="nav-menu">
+            <nav class="nav-menu" id="site-navigation">
                 <ul>
                     <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="curriculum.html">Curriculum</a></li>
@@ -41,12 +41,12 @@
         
         <aside class="sidebar">
             <div class="profile-photo">
-                <img src="images/ao_profilo.jpeg" alt="Foto Profilo">
+                <img src="images/ao_profilo.jpeg" alt="Portrait of Alessandro Oneto">
             </div>
             <div class="contacts project-card">
                 <h3>Alessandro Oneto <span style="font-size: small;">(he/his)</span></h3>
                 <h4>Associate Professor</h4>
-                <h5>Department of Mathematics<br> University of Genova, Italy </h5>
+                <h5>Department of Mathematics<br> University of Genoa, Italy </h5>
                 
                 <div class="contact-details">
                     <div class="contact-group">
@@ -63,7 +63,7 @@
             <section id="about">
                 <h1>Welcome!</h1>
                 <p class="intro">
-                    I am a mathematician working in <b>Algebraic Geometry</b> and <b>Commutative Algebra</b>, with a focus on the study of tensors from both a theoretical and applied perspective. I am passionate about teaching and I always try to find new ways to engage students during my lectures. I am also committed about mentoring young researchers and helping them to develop their skills and reach their full potential. I am also involved in several outreach activities aimed at promoting mathematics to a wider audience.
+                    I am a mathematician working in <b>Algebraic Geometry</b> and <b>Commutative Algebra</b>, with a focus on the study of tensors from both theoretical and applied perspectives. I am passionate about teaching and finding new ways to engage students during my lectures. I am also committed to mentoring young researchers and helping them develop their skills and reach their full potential, and I take part in outreach activities that promote mathematics to a wider audience.
                 </p>
 
                 <div class="axioms-block">
@@ -79,7 +79,7 @@
 
                 <div class="axioms-block">
                     I signed the <a href="https://leidendeclaration.ai/">Leiden Declaration on Artificial Intelligence</a>.<br>
-                    A call to for action to address the challenges posed by the use of artificial intelligence within mathematics research.
+                    A call to action addressing the challenges posed by the use of artificial intelligence in mathematical research.
                 </div>
 
                 <div class="axioms-block">
@@ -88,7 +88,7 @@
                 </div>
             </section>
 
-            <section id="news">
+            <section id="upcoming-events">
                 <h2>Where I will be</h2>
                 <ul class="news-list">
                     <li><strong>October 1st, 2026</strong> <br> I will be giving a seminar at the <b>U. of Nice, France</b>. </li>

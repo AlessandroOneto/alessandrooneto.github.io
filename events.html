@@ -12,13 +12,13 @@
     <header class="navbar">
         <div class="nav-container">
             <div class="logo">Alessandro Oneto <span style="font-size: small;">(he/his)</span></div>
-            <input type="checkbox" id="menu-toggle" class="menu-toggle">
-            <label for="menu-toggle" class="hamburger">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Show navigation menu" aria-controls="site-navigation">
+            <label for="menu-toggle" class="hamburger" aria-hidden="true">
                 <span></span>
                 <span></span>
                 <span></span>
             </label>
-            <nav class="nav-menu">
+            <nav class="nav-menu" id="site-navigation">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="curriculum.html">Curriculum</a></li>
@@ -35,7 +35,7 @@
     <div class="page-wrapper container">
         <main class="content">
             <h1>Conferences, Seminars and Events</h1>
-            <p>Here is a list of my events that I have organized.</p>
+            <p>A selection of conferences, minisymposia, and schools that I have organized.</p>
 
             <div class="tabs">
                 <button class="tab-link active" onclick="openTab(event, 'conferences')">Conferences</button>
@@ -63,7 +63,7 @@
                     <h3 style="font-size: 1.1rem; margin-bottom: 2px;"><a href="https://areeweb.polito.it/disma-excellence/tensors/tensors_index.html" target="_blank">TENSORS</a></h3>
                     <span style="color: var(--accent-green); font-weight: 500; font-size: 0.9rem;">Poli. Torino, Italy | 10 September - 14 September, 2025</span>
                     <p class="mentor" style="font-size: 0.95rem; margin-top: 4px; margin-bottom: 2px; color: #333;">co-organized with Ada Boralevi, Enrico Carlini, Letterio Gatto, Francesco Vaccarino</p>
-                    <p style="font-size: 0.9rem; margin-top: 10px;">Workshop bringing together experts from different branches of mathematics and engineering. Main speakers: Luca Chiantini, Wolfgang Hackbush, Bernard Mourrain, Giorgio Ottaviani and Bernd Sturmfels.</p>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">Workshop bringing together experts from different branches of mathematics and engineering. Main speakers: Luca Chiantini, Wolfgang Hackbusch, Bernard Mourrain, Giorgio Ottaviani, and Bernd Sturmfels.</p>
                 </div>
 
                 <div class="project-card" style="border-left: 5px solid #ccc; padding: 20px; margin-bottom: 20px;">
