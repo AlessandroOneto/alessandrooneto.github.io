@@ -918,6 +918,23 @@ footer {
 .btn-slides { color: #555; border-color: #555; }
 .btn-slides:hover { background: #555; }
 
+.btn-outreach {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 4px 10px;
+}
+
+.outreach-list .btn-outreach-blue { color: var(--primary-blue); border-color: var(--primary-blue); }
+.outreach-list .btn-outreach-blue:hover { background: var(--primary-blue); }
+
+.outreach-list .btn-outreach-green { color: var(--accent-green); border-color: var(--accent-green); }
+.outreach-list .btn-outreach-green:hover { background: var(--accent-green); }
+
+.outreach-list button.btn-outreach {
+    cursor: pointer;
+    font-family: inherit;
+}
+
 /* RESET UNIFORME PER MENTOR/SUPERVISOR */
 .details .mentor, 
 .project-card .mentor,
